@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('cubes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgb(25, 25, 25);
+  width: 270px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 18px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  margin: 10px;
+}
+
+.car-1 {
+  background-image: url('addintern.png');
+}
+
+.car-2 {
+  background-image: url('allintern.png');
+}
+
+
+
+.card p {
+  color: rgb(166, 166, 166);
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card:hover{
+  background-color: rgb(69, 69, 69);
+  color: rgb(182, 164, 164);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}

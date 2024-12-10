@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('cubes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.update-box {
+    position: absolute;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.update-box .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.update-box .form-group input,
+.update-box .form-group label {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.update-box .form-group input {
+    border-bottom: 1px solid #fff;
+}
+
+.update-box .form-group label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+    transform-origin: top left;
+}
+
+.update-box .form-group input:focus ~ label,
+.update-box .form-group input:valid ~ label {
+    top: -20px;
+    color: #02c0e6;
+    font-size: 12px;
+}
+
+.update-box .btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 550;
+    color: #0b0b0b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #03e9f4;
+    transition: background 0.3s ease;
+}
+
+.update-box .btn:hover {
+    background: #02c0e6;
+}
+
+.update-box .btn-secondary {
+    background: #999;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.update-box .btn-secondary:hover {
+    background: #666;
+}

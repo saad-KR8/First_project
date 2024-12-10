@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('cubes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  
+  .dive {
+    justify-content: center;
+    padding: 150px 300px;
+  }
+
+  .dive h1 {
+    color: white;
+    font-size: 75px;
+    padding-right: 0%;
+    padding-left: 48px;
+  }
+
+  .dive h4 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    font-size: 40px;
+    padding-right: 24px;
+  }
